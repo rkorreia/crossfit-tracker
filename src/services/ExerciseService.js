@@ -83,7 +83,7 @@ class ExerciseService {
         const sql = `INSERT INTO exercises (name, description) VALUES (?, ?)`;
 
         try {
-            const { success, lastInsertRowId } = await this.db
+            const { success } = await this.db
                 .prepare(sql)
                 .bind(name, description)
                 .run();
