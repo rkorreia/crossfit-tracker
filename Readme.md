@@ -108,10 +108,22 @@ The app is built using [Cloudflare Workers](https://workers.cloudflare.com/) wit
 
 ## Future Improvements
 
-- **Visualization**: Add charts and graphs to visually track progress over time.
-- **Authentication**: Implement basic user authentication for secure access.
-- **Reporting**: Create reports to track performance improvements (e.g., weight lifted over time).
-- **Mobile Support**: Optimize the UI for mobile devices.
+### Technical
+- Add tests and set up GitHub Actions
+- Add linter
+- Adopt a commit message standard
+- Add authentication
+
+### Functional
+- At the gym, I want to be able to see the history of the exercise that I am just going to do so that I can make better decision on the start and max weight/intensity I should pick. (See wireframes)
+- When I add an exercise to today's session, I want it to default to the last start weight/intensity.
+- I should be able to see how my strength/endurance has improved over time. For example a graph of 1 RM Front Squat max over time or max distance run in 5 minutes over time.
+
+### Proposed Class Diagram considering the above requirements
+![cannot find image](documents/crossfit-tracker-class-diagram.png)
+
+### Proposed Wireframes considering the above requirements
+![cannot find image](documents/wireframes.png)
 
 ## License
 
